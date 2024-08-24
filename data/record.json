@@ -1,0 +1,10 @@
+[
+    {
+        "parent_base_plant_ids": [
+            1,
+            2
+        ],
+        "hybridization_method": 1,
+        "hybridization_plant_id": 1
+    }
+]

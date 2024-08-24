@@ -1,0 +1,808 @@
+[
+    {
+        "id": 1,
+        "parent_base_plant_ids": [
+            1,
+            2
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 2,
+        "parent_base_plant_ids": [
+            2,
+            36
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 3,
+        "parent_base_plant_ids": [
+            2,
+            3
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 4,
+        "parent_base_plant_ids": [
+            4,
+            23
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 5,
+        "parent_base_plant_ids": [
+            5,
+            10
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 6,
+        "parent_base_plant_ids": [
+            6,
+            44
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 7,
+        "parent_base_plant_ids": [
+            7,
+            37
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 8,
+        "parent_base_plant_ids": [
+            8,
+            27
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 9,
+        "parent_base_plant_ids": [
+            9,
+            34
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 10,
+        "parent_base_plant_ids": [
+            2,
+            10
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 11,
+        "parent_base_plant_ids": [
+            11,
+            45
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 12,
+        "parent_base_plant_ids": [
+            5,
+            12
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 13,
+        "parent_base_plant_ids": [
+            13
+        ],
+        "hybridization_method": 4,
+        "new_hybrid": false
+    },
+    {
+        "id": 14,
+        "parent_base_plant_ids": [
+            10,
+            14
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 15,
+        "parent_base_plant_ids": [
+            6,
+            15
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": false
+    },
+    {
+        "id": 16,
+        "parent_base_plant_ids": [
+            1,
+            17
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 17,
+        "parent_base_plant_ids": [
+            15,
+            18
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 18,
+        "parent_base_plant_ids": [
+            1,
+            17,
+            19,
+            29
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": false
+    },
+    {
+        "id": 19,
+        "parent_base_plant_ids": [
+            16,
+            20
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 20,
+        "parent_base_plant_ids": [
+            3,
+            21
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 21,
+        "parent_base_plant_ids": [
+            22
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": false
+    },
+    {
+        "id": 22,
+        "parent_base_plant_ids": [
+            6,
+            23
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 23,
+        "parent_base_plant_ids": [
+            24,
+            25
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": false
+    },
+    {
+        "id": 24,
+        "parent_base_plant_ids": [
+            6,
+            26
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": false
+    },
+    {
+        "id": 25,
+        "parent_base_plant_ids": [
+            27,
+            28
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 26,
+        "parent_base_plant_ids": [
+            33,
+            35,
+            44
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 27,
+        "parent_base_plant_ids": [
+            22,
+            30
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 28,
+        "parent_base_plant_ids": [
+            4,
+            32
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 29,
+        "parent_base_plant_ids": [
+            33,
+            41
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 30,
+        "parent_base_plant_ids": [
+            2,
+            34
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 31,
+        "parent_base_plant_ids": [
+            19,
+            35
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 32,
+        "parent_base_plant_ids": [
+            0
+        ],
+        "hybridization_method": 5,
+        "new_hybrid": true
+    },
+    {
+        "id": 33,
+        "parent_base_plant_ids": [
+            13,
+            37
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 34,
+        "parent_base_plant_ids": [
+            36,
+            38
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 35,
+        "parent_base_plant_ids": [
+            27,
+            28
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 36,
+        "parent_base_plant_ids": [
+            4,
+            40
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 37,
+        "parent_base_plant_ids": [
+            2,
+            31,
+            27
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 38,
+        "parent_base_plant_ids": [
+            10,
+            40
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 39,
+        "parent_base_plant_ids": [
+            39,
+            46
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 40,
+        "parent_base_plant_ids": [
+            5,
+            21
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 41,
+        "parent_base_plant_ids": [
+            4,
+            21
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 42,
+        "parent_base_plant_ids": [
+            1,
+            44
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 43,
+        "parent_base_plant_ids": [
+            23,
+            31
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 44,
+        "parent_base_plant_ids": [
+            1
+        ],
+        "hybridization_method": 4,
+        "new_hybrid": true
+    },
+    {
+        "id": 45,
+        "parent_base_plant_ids": [
+            6,
+            28
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 46,
+        "parent_base_plant_ids": [
+            6,
+            27
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 47,
+        "parent_base_plant_ids": [
+            18
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 48,
+        "parent_base_plant_ids": [
+            21
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 49,
+        "parent_base_plant_ids": [
+            21,
+            37
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 50,
+        "parent_base_plant_ids": [
+            4
+        ],
+        "hybridization_method": 4,
+        "new_hybrid": true
+    },
+    {
+        "id": 51,
+        "parent_base_plant_ids": [
+            34,
+            44
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 52,
+        "parent_base_plant_ids": [
+            4
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 53,
+        "parent_base_plant_ids": [
+            11
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 54,
+        "parent_base_plant_ids": [
+            15,
+            22
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 55,
+        "parent_base_plant_ids": [
+            5,
+            30
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 56,
+        "parent_base_plant_ids": [
+            21,
+            33
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 57,
+        "parent_base_plant_ids": [
+            4
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 58,
+        "parent_base_plant_ids": [
+            4,
+            18
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 59,
+        "parent_base_plant_ids": [
+            4,
+            6
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 60,
+        "parent_base_plant_ids": [
+            10,
+            36
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 61,
+        "parent_base_plant_ids": [
+            10,
+            15
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 62,
+        "parent_base_plant_ids": [
+            1,
+            2
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 63,
+        "parent_base_plant_ids": [
+            0
+        ],
+        "hybridization_method": 5,
+        "new_hybrid": true
+    },
+    {
+        "id": 64,
+        "parent_base_plant_ids": [
+            3
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 65,
+        "parent_base_plant_ids": [
+            5,
+            48
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 66,
+        "parent_base_plant_ids": [
+            0
+        ],
+        "hybridization_method": 5,
+        "new_hybrid": true
+    },
+    {
+        "id": 67,
+        "parent_base_plant_ids": [
+            7,
+            22
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 68,
+        "parent_base_plant_ids": [
+            36
+        ],
+        "hybridization_method": 4,
+        "new_hybrid": true
+    },
+    {
+        "id": 69,
+        "parent_base_plant_ids": [
+            16
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 70,
+        "parent_base_plant_ids": [
+            6,
+            25
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 71,
+        "parent_base_plant_ids": [
+            17
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 72,
+        "parent_base_plant_ids": [
+            2,
+            44
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 73,
+        "parent_base_plant_ids": [
+            44
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 74,
+        "parent_base_plant_ids": [
+            1,
+            2,
+            46
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 75,
+        "parent_base_plant_ids": [
+            1,
+            25
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 76,
+        "parent_base_plant_ids": [
+            1,
+            20
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 77,
+        "parent_base_plant_ids": [
+            6,
+            30
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 78,
+        "parent_base_plant_ids": [
+            4
+        ],
+        "hybridization_method": 5,
+        "new_hybrid": true
+    },
+    {
+        "id": 79,
+        "parent_base_plant_ids": [
+            13,
+            25
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 80,
+        "parent_base_plant_ids": [
+            17,
+            34
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 81,
+        "parent_base_plant_ids": [
+            33,
+            43
+        ],
+        "hybridization_method": 1,
+        "new_hybrid": true
+    },
+    {
+        "id": 82,
+        "parent_base_plant_ids": [
+            2
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 83,
+        "parent_base_plant_ids": [
+            36
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 84,
+        "parent_base_plant_ids": [
+            11
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 85,
+        "parent_base_plant_ids": [
+            0
+        ],
+        "hybridization_method": 5,
+        "new_hybrid": true
+    },
+    {
+        "id": 86,
+        "parent_base_plant_ids": [
+            33
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 87,
+        "parent_base_plant_ids": [
+            6,
+            36
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 88,
+        "parent_base_plant_ids": [
+            2
+        ],
+        "hybridization_method": 3,
+        "new_hybrid": true
+    },
+    {
+        "id": 89,
+        "parent_base_plant_ids": [
+            2,
+            35
+        ],
+        "hybridization_method": 2,
+        "new_hybrid": true
+    },
+    {
+        "id": 90,
+        "parent_base_plant_ids": [
+            36
+        ],
+        "hybridization_method": 5,
+        "new_hybrid": true
+    },
+    {
+        "id": 91,
+        "parent_base_plant_ids": [
+            4
+        ],
+        "hybridization_method": 5,
+        "new_hybrid": true
+    },
+    {
+        "id": 92,
+        "parent_base_plant_ids": [
+            34
+        ],
+        "hybridization_method": 5,
+        "new_hybrid": true
+    }
+]

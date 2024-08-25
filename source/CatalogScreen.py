@@ -23,6 +23,7 @@ class PlantCatalogScreen(tk.Frame):
         for row in range(6):
             for col in range(8):
                 def on_click(row, col):
+                    card_music.play()
                     """卡片点击事件, 展示植物说明"""
                     label = tk.Label(self, image=self.master.basal_plant_describe[row][col], bd=0)
                     label.place(x=530, y=94)                
@@ -155,6 +156,7 @@ class HybridCatalogScreen(tk.Frame):
                     button.config(borderwidth=0,highlightthickness=0)
                     button.grid(row=row, column=col,sticky="NSEW")
                     def on_click(row, col):
+                        card_music.play()
                         describe_photo = id_to_photo(self.new_hybrid_plant[row+page*6][col],self.master.hybrid_plant_describe)
                         label = tk.Label(self, image=describe_photo, bd=0)
                         label.place(x=530, y=82)

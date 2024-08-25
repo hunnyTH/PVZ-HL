@@ -15,7 +15,7 @@ class LoadingScreen(tk.Frame):
                 self.loading_image.seek(i)
                 self.loading_photo = ImageTk.PhotoImage(self.loading_image)
                 self.loading_label.config(image=self.loading_photo)
-                self.after(100, update_loading, i + 1)
+                self.after(66, update_loading, i + 1)
             else:
                 self.loading_label.config(image=tk.PhotoImage())
                 self.update_idletasks()

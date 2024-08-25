@@ -67,7 +67,9 @@ class ExperimentScreen(tk.Frame):
                 button.config(borderwidth=0,highlightthickness=0)
                 button.grid(row=row, column=col,sticky="NSEW")
                 def on_click(row, col):
+                    card_music.play()
                     if self.card_choose_num ==4 :
+                        worning_music.play()
                         messagebox.showinfo("错误", "你最多只能添加四种基础植物！")
                     else:
                         self.card_choose_photo_id[self.card_choose_num] = col+1+row*8
@@ -113,6 +115,7 @@ class ExperimentScreen(tk.Frame):
         """开始杂交实验按钮点击事件"""
         if self.card_choose_photo_id[0]!=0 and self.method_id!=0:
             if (self.method_id==3 or self.method_id==4) and self.card_choose_photo_id[1]!=0:
+                worning_music.play()
                 messagebox.showinfo("提示", "该杂交方法只能选择单株植物！")
                 self.on_clear_button_click()
             else:
@@ -121,8 +124,10 @@ class ExperimentScreen(tk.Frame):
                 self.on_clear_button_click()
                 self.master.switch_to_screen('result_screen')
         elif self.card_choose_photo_id[0]!=0 and self.method_id==0:
+            worning_music.play()
             messagebox.showinfo("提示", "请选择杂交方式！")
         else:
+            worning_music.play()
             messagebox.showinfo("提示", "请选择基础植物！")
     
     def on_clear_button_click(self):
@@ -170,10 +175,12 @@ class ExperimentScreen(tk.Frame):
                     else:
                         num += 1
         if sign:
+            success_music.play()
             self.result_plant_id = plant.get("id")
             self.result = is_new(plant.get("new_hybrid"))
             self.master.hybridizationPlants[self.result_plant_id-1]["new_hybrid"] = False
         else:
+            fail_music.play()
             self.result = 2
             self.result_plant_id = 0
         self.add_record()

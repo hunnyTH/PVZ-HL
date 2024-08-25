@@ -23,6 +23,7 @@ def create_button(root,dark_image_path, light_image_path,width,height,locate_x,l
     def on_leave(event):
         label.config(image=photo_dark)
     def on_click(event):
+        button_music.play()
         command()
 
     # 创建Label作为按钮

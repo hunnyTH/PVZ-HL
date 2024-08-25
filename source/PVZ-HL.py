@@ -18,13 +18,12 @@ class PVZ_HL(tk.Tk):
         self.hybrid_plant_load()
         self.hybridizationPlants = json_dataload(hybridizationplants_data_path)
         self.recorditem = json_dataload(record_data_path)
-
         # 窗口创建
         self.init_window()
         self.title(game_name)
         self.iconbitmap(icon_path)
         self.protocol("WM_DELETE_WINDOW", self.on_close)     
-
+        pygame.mixer.music.play(loops=-1)  # 无限循环播放
         self.children['loading_screen'] = LoadingScreen(self)
         self.children['main_screen'] = MainScreen(self)
         self.children['breeding_screen'] = BreedingScreen(self)
@@ -72,6 +71,8 @@ class PVZ_HL(tk.Tk):
             self.destroy()
             json_datasave(hybridizationplants_data_path,self.hybridizationPlants)
             json_datasave(record_data_path,self.recorditem)
+            pygame.quit()
+
 
 if __name__ == '__main__':
     """主程序入口"""

@@ -3,7 +3,16 @@ import json
 import tkinter as tk
 from tkinter import ttk,messagebox
 from PIL import Image, ImageTk
+import pygame
 
+# music
+pygame.init()
+BGM = pygame.mixer.music.load(r'sounds\bgm.ogg')
+button_music = pygame.mixer.Sound(r'sounds\buttonclick.ogg')
+card_music = pygame.mixer.Sound(r'sounds\card.ogg')
+success_music = pygame.mixer.Sound(r'sounds\success.ogg')
+fail_music = pygame.mixer.Sound(r'sounds\fail.ogg')
+worning_music = pygame.mixer.Sound(r'sounds\worning.ogg')
 
 game_name = "植物杂交实验室"
 window_width = 880

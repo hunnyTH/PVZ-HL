@@ -52,7 +52,7 @@ class HybridCatalogScreen(tk.Frame):
                                            locate_x=265,
                                            locate_y=566,
                                            command=self.on_ahead_button_click)
-        self.ahead_buttton = create_button(self,
+        self.next_buttton = create_button(self,
                                            dark_image_path=next1_1_path,
                                            light_image_path=next1_2_path,
                                            width=110,

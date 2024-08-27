@@ -65,7 +65,7 @@ class BreedingScreen(tk.Frame):
         # 点击杂交记录按钮的事件处理
         self.master.children['record_screen'].all_record(page=0)
         self.master.switch_to_screen('record_screen')
-  
+
     def advice_text(self):
         image = Image.open(advice_background_path)
         # 将图片转换为Tkinter可以使用的格式
